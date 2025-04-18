@@ -4,10 +4,10 @@ resource "random_pet" "name" {
  separator = "-"
 }
 
-output "random_pet_name" {
-  description = "random pet name display"
-  #sensitive   = true
-  #value       = random_pet.name.id
-  value       = ""
-}
+#output "random_pet_name" {
+#  description = "random pet name display"
+#  #sensitive   = true
+#  #value       = random_pet.name.id
+#  value       = ""
+#}
 
