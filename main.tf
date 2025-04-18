@@ -7,8 +7,8 @@ resource "random_pet" "name" {
 output "random_pet_name" {
   description = "random pet name display"
   #sensitive   = true
-  #value       = random_pet.name.id
+  value       = random_pet.name.id
   #value       = ""
-  value       = null
+  #value       = null
 }
 
